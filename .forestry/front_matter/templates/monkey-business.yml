@@ -1,4 +1,13 @@
 ---
 label: Monkey business
 hide_body: false
-fields: []
+fields:
+- name: something
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Something
