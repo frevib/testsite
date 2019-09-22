@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: monkey
+  label: dome document
+  match: "**/*"
+- type: heading
+  label: some heading
 - type: heading
   label: test
 upload_dir: static/uploads
